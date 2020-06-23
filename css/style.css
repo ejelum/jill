@@ -6,3 +6,6 @@ Secondary Color (Gray 1): #6d6d6d;
 Secondary Color (Gray 2): #424242;
 Secondary Color (Gray 3): #1b1b1b;
 */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
