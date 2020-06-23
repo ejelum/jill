@@ -7,5 +7,33 @@ Secondary Color (Gray 2): #424242;
 Secondary Color (Gray 3): #1b1b1b;
 */
 body {
+  background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #424242;
+}
+h1, h2, h3, h4 {
+  font-family: 'Rokkitt', serif;
+  line-height: 1.4;
+  color: #1b1b1b;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
 }
