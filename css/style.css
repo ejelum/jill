@@ -109,20 +109,22 @@ a:active { /* selected link */
   text-decoration: none;
 }
 .button.contact {
-  background-color: transparent;
-  color: #424242;
+  background-color: #1b1b1b;
+  color: #ffffff;
+  font-family: 'Rokkitt', serif;
   text-transform: uppercase;
   width: 100px;
   transition: 1s;
+  padding: 10px;
+  font-weight: 400;
 }
 .button.contact:hover,
 .button.contact:focus {
-  background-color: #1b1b1b;
+  background-color: #6d6d6d;
   color: #ffffff;
-  width: 100px;
 }
 .button.contact:active {
   background-color: #6d6d6d;
   color: #ffffff;
-  width: 100px;
+  text-decoration: underline;
 }
