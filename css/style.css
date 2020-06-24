@@ -14,6 +14,10 @@ body {
   line-height: 1; /* Sets the line-height to 1  * the font-size */
   color: #424242;
 }
+header {
+  background-color: #1b1b1b;
+  padding: 0.625em;
+}
 h1, h2, h3, h4 {
   font-family: 'Rokkitt', serif;
   line-height: 1.4;
