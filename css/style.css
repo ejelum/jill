@@ -201,11 +201,11 @@ nav > ul > li > a:active {
 #email-step4-images .row {
   display: flex;
 }
-div > ul {
+div > ul.b {
   list-style-type: none;
   padding: 0px;
 }
-div > ul > li {
+div > ul.b > li {
   display: inline;
 }
 svg {
@@ -216,4 +216,7 @@ svg {
 }
 #hero .container {
   padding: 30px;
+}
+ul.a {
+  list-style-type: square;
 }
