@@ -83,6 +83,7 @@ a:active { /* selected link */
   text-decoration: underline;
 }
 .button {
+  display: inline-block;
   background-color: transparent;
   float: right;
   border: none;
@@ -136,6 +137,10 @@ a:active { /* selected link */
 }
 .row {
   margin: 25px 0;
+}
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #1b1b1b;
 }
 .logo {
   max-width: 50px;
