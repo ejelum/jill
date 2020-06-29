@@ -214,3 +214,6 @@ svg {
 #navbar .container {
   display: inline-flex;
 }
+#hero .container {
+  padding: 30px;
+}
