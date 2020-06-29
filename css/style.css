@@ -83,35 +83,28 @@ a:active { /* selected link */
   text-decoration: underline;
 }
 .button {
-  display: inline-block;
-  background-color: #ffffff;
+  background-color: transparent;
+  float: right;
   border: none;
   color: #424242;
   font-weight: 400;
-  padding: 0px;
-  border-radius: 3px;
+  padding-bottom: 20px;
   cursor: pointer;
   transition: all 0.5s;
 }
 .button:hover,
 .button:focus {
-  display: inline-block;
   background-color: #fff176;
   border: none;
   color: #424242;
   font-weight: 400;
-  padding: 0px;
-  border-radius: 3px;
   transition: all 0.5s;
 }
 .button:active {
-  display: inline-block;
   background-color: #ffe504;
   border: none;
   color: #424242;
   font-weight: 400;
-  padding: 0px;
-  border-radius: 3px;
   transition: all 0.5s;
   text-decoration: none;
 }
@@ -125,6 +118,7 @@ a:active { /* selected link */
   padding: 10px;
   font-weight: 400;
   text-align: center;
+  float: none;
 }
 .button.contact:hover,
 .button.contact:focus {
