@@ -10,7 +10,8 @@ Secondary Color (Gray 3): #1b1b1b;
   box-sizing: border-box;
 }
 body {
-  background-color: #ffffff;
+  background-image: url("../img/site-logos/mobile-background.svg");
+  background-repeat: repeat-y;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
