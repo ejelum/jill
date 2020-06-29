@@ -205,6 +205,9 @@ div > ul {
   list-style-type: none;
   padding: 0px;
 }
+div > ul > li {
+  display: inline;
+}
 svg {
-  max-width: 75px;
+  max-width: 50px;
 }
