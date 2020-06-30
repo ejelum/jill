@@ -138,13 +138,6 @@ a:active { /* selected link */
 .row {
   margin: 25px 0;
 }
-#work .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #1b1b1b;
-}
-#work h3 {
-  margin: 15px 0;
-}
 .logo {
   max-width: 50px;
 }
@@ -222,4 +215,25 @@ svg {
 }
 ul.a {
   list-style-type: square;
+}
+#work .row {
+  margin: 25px 0;
+  padding: 10px 10px 30px 10px;
+  text-align: left;
+}
+#work h3 {
+  margin: 15px 0;
+}
+#about .row {
+  margin: 25px 0;
+  padding: 10px;
+  text-align: left;
+}
+#about h3 {
+  margin: 10px;
+}
+#about-main .row {
+  margin: 25px 0;
+  padding: 10px 10px 30px 10px;
+  text-align: left;
 }
