@@ -170,7 +170,7 @@ nav > ul > li > a:active {
   margin-bottom: 10px;
 }
 #email-step2-images .column {
-  flex: 25%
+  flex: 25%;
   padding: 5px;
   margin: 0 5px;
   }
