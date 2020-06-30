@@ -219,6 +219,7 @@ ul.a {
 #work .row {
   margin: 25px 0;
   padding: 10px 10px 30px 10px;
+  background-color: rgba(255, 255, 255, .75);
   text-align: left;
 }
 #work h3 {
@@ -227,6 +228,7 @@ ul.a {
 #about .row {
   margin: 25px 0;
   padding: 10px;
+  background-color: rgba(255, 255, 255, .75);
   text-align: left;
 }
 #about h3 {
@@ -235,5 +237,6 @@ ul.a {
 #about-main .row {
   margin: 25px 0;
   padding: 10px 10px 30px 10px;
+  background-color: rgba(255, 255, 255, .75);
   text-align: left;
 }
