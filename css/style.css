@@ -307,6 +307,12 @@ h1 {
 #skills-tools h2 {
   margin-top: 55px;
   }
+#work .row {
+  padding: 10px;
+  }
+a.button {
+  padding: 0px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
