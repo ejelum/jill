@@ -301,6 +301,9 @@ Medium devices (640px and larger)
   clear: both;
   display: table;
   }
+h1 {
+  margin-top: 50px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
