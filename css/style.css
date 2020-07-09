@@ -304,6 +304,9 @@ Medium devices (640px and larger)
 h1 {
   margin-top: 50px;
   }
+#skills-tools h2 {
+  margin-top: 55px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
