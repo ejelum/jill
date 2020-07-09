@@ -170,12 +170,12 @@ nav > ul > li > a:active {
   margin-bottom: 10px;
 }
 #email-step2-images .column {
-  flex: 25%;
-  padding: 5px;
-  margin: 0 5px;
-  }
+  flex: 25%;
+  padding: 5px;
+  margin: 0 5px;
+  }
 #email-step2-images .row {
-  display: flex;
+  display: flex;
 }
 #email-step3-images .column {
   flex: 33.3%;
