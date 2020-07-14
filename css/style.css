@@ -330,9 +330,26 @@ h1 {
   }
 #work .row {
   padding: 10px;
+  position: relative;
   }
 a.button {
   padding: 0px;
+  }
+#work a.button {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+  }
+#work p {
+  padding-bottom: 20px;
+}
+#about-main .row {
+  position: relative;
+}
+#about-main a.button {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
   }
   }
 }
