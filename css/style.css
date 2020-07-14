@@ -287,7 +287,7 @@ Medium devices (640px and larger)
   }
   nav {
     width: auto;
-    float: right;
+    text-align: right;
     margin-top: 4px;
   }
   .col-md-6 {
