@@ -276,6 +276,9 @@ ul.a {
     height: 100%;
     border: 0;
 }
+#hero p {
+  width: 70%;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
