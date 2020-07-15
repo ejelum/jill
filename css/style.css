@@ -381,6 +381,9 @@ Large devices (1024px or larger)
     font-size: 10em;
     margin-bottom: 10px;
   }
+  .col-lg-4 {
+    width: 33.33%;
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
