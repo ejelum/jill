@@ -355,6 +355,10 @@ a.button {
   footer {
     clear: left;
   }
+  #skills-tools h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
