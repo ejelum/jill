@@ -301,6 +301,40 @@ ul.a {
 .tulip {
   animation: 6s tulipmove infinite alternate ease;
 }
+@keyframes spin {
+  0% {transform: rotate(10deg);}
+  100% {transform: rotate(-359deg);}
+}
+#pinwheel-1 {
+  animation: 3s spin infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#pinwheel-2 {
+  animation: 1s spin infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#pinwheel-3 {
+  animation: 5s spin infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#pinwheel-4 {
+  animation: 3.5s spin infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#pinwheel-5 {
+  animation: .5s spin infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#pinwheel-6 {
+  animation: 2.5s spin infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
 .little-daisy {
   animation: 4s small-rotate infinite;
   transform-origin: center;
