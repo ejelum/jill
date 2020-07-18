@@ -281,6 +281,10 @@ ul.a {
   75% {transform: rotate(-10deg);}
   100% {transform: rotate(0deg);}
 }
+@keyframes color-change-1 {
+  0% {fill: #cd007a;}
+  100% {fill: #000000;}
+}
 .st56 {
   animation: 2s color-change-1 infinite alternate linear;
   animation: 4s small-rotate infinite linear;
