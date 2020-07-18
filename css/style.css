@@ -274,6 +274,24 @@ ul.a {
   max-width: 100%;
   height: auto;
 }
+@keyframes small-rotate {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(10deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(-10deg);}
+  100% {transform: rotate(0deg);}
+}
+.st56 {
+  animation: 2s color-change-1 infinite alternate linear;
+  animation: 4s small-rotate infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.little-daisy {
+  animation: 4s small-rotate infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
