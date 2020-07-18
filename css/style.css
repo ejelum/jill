@@ -83,31 +83,16 @@ a:active { /* selected link */
   text-decoration: underline;
 }
 .button {
-  display: inline-block;
-  background-color: transparent;
-  float: right;
-  border: none;
-  color: #424242;
-  font-weight: 400;
-  padding-bottom: 20px;
-  cursor: pointer;
-  transition: all 0.5s;
+  background-color: transparent;  
+  transition: .5s;
 }
 .button:hover,
 .button:focus {
   background-color: #fff176;
-  border: none;
-  color: #424242;
-  font-weight: 400;
-  transition: all 0.5s;
+  background-size: 100%;
 }
 .button:active {
-  background-color: #ffe504;
-  border: none;
-  color: #424242;
-  font-weight: 400;
-  transition: all 0.5s;
-  text-decoration: none;
+  color: #1b1b1b;
 }
 .button.contact {
   background-color: #1b1b1b;
