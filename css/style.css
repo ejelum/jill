@@ -458,6 +458,13 @@ ul.a {
   animation-delay: .4s;
   transform-origin: center;
 }
+@keyframes full-spin {
+  0% {transform: rotate(-30deg);}
+  100% {transform: rotate(330deg);}
+}
+.whole-spinner {
+  animation: 4s full-spin infinite;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
