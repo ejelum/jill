@@ -430,6 +430,34 @@ ul.a {
   transform-origin: center;
   transform-box: fill-box;
 }
+@keyframes swirl {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+#_x31_ {
+  animation: 2.5s swirl infinite ease;
+  transform-origin: center;
+}
+#_x32_ {
+  animation: 2.5s swirl infinite ease;
+  animation-delay: .1s;
+  transform-origin: center;
+}
+#_x33_ {
+  animation: 2.5s swirl infinite ease;
+  animation-delay: .2s;
+  transform-origin: center;
+}
+#_x34_ {
+  animation: 2.5s swirl infinite ease;
+  animation-delay: .3s;
+  transform-origin: center;
+}
+#_x35_ {
+  animation: 2.5s swirl infinite ease;
+  animation-delay: .4s;
+  transform-origin: center;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
