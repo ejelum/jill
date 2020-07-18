@@ -387,6 +387,18 @@ ul.a {
 #bb-bunch-2-stem {
   animation: 3s wiggle infinite ease;
 }
+@keyframes color-change-small {
+  0% {fill: #d8a6a1;}
+  20% {fill: #771510;}
+  30% {fill: #ffce00;}
+  40% {fill: #63b751;}
+  60% {fill: #518eb7;}
+  80% {fill: #ad71db;}
+  100% {fill: #d8a6a1;}
+}
+.st38 {
+  animation: 15s color-change-small infinite ease;
+}
 .little-daisy {
   animation: 4s small-rotate infinite;
   transform-origin: center;
