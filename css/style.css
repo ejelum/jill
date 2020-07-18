@@ -335,6 +335,13 @@ ul.a {
   transform-origin: center;
   transform-box: fill-box;
 }
+@keyframes bounce {
+  0% {transform: translate(0,0);}
+  100% {transform: translate(0,-15px);}
+}
+.glady-bounce {
+  animation: .5s bounce infinite alternate ease;
+}
 .little-daisy {
   animation: 4s small-rotate infinite;
   transform-origin: center;
