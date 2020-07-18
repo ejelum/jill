@@ -342,6 +342,31 @@ ul.a {
 .glady-bounce {
   animation: .5s bounce infinite alternate ease;
 }
+@keyframes shine-1 {
+    0% {fill: #2c973e;}
+    20% {fill: #73bc7d;}
+    30% {fill: #2c973e;}
+}
+#pot-stripe-1 {
+  animation: 2s shine-1 infinite ease;
+}
+@keyframes shine-2 {
+    0% {fill: #1e81ab;}
+    25% {fill: #71a9bc;}
+    35% {fill: #1e81ab;}
+}
+#pot-stripe-2 {
+  animation: 2s shine-2 infinite ease;
+}
+@keyframes shine-3 {
+    0% {fill: #cccc9d;}
+    20% {fill: #cccc9d;}
+    30% {fill: #eaeae4;}
+    40% {fill: #cccc9d;}
+}
+#pot-stripe-3 {
+  animation: 2s shine-3 infinite ease;
+}
 .little-daisy {
   animation: 4s small-rotate infinite;
   transform-origin: center;
