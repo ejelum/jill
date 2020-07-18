@@ -404,6 +404,32 @@ ul.a {
   transform-origin: center;
   transform-box: fill-box;
 }
+@keyframes zoom {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.3);}
+    100% {transform: scale(1);}
+}
+#clover-1 {
+  animation: 2s zoom infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#clover-2 {
+  animation: 1s zoom infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#clover-3 {
+  animation: 2.4s zoom infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation-delay: 1s;
+}
+#clover-4 {
+  animation: 3.1s zoom infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
