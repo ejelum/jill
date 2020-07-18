@@ -291,6 +291,16 @@ ul.a {
   transform-origin: center;
   transform-box: fill-box;
 }
+@keyframes tulipmove {
+  0% {transform: translate(0,50px);}
+  15% {transform: translate(-4px,45px);}
+  45% {transform: translate(8px;30px);}
+  75% {transform: translate(-4px,15px);}
+  100% {transform: translate(0,-50px;);}
+}
+.tulip {
+  animation: 6s tulipmove infinite alternate ease;
+}
 .little-daisy {
   animation: 4s small-rotate infinite;
   transform-origin: center;
