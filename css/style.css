@@ -84,7 +84,7 @@ a:active { /* selected link */
   text-decoration: underline;
 }
 .button {
-  background-color: transparent;  
+  background-color: transparent;
   transition: .5s;
 }
 .button:hover,
