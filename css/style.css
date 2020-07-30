@@ -153,6 +153,27 @@ nav > ul > li > a:focus {
 nav > ul > li > a:active {
   text-transform: underline;
 }
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-top: 13px;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,141,118,0.5);
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 #hero h4 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -554,6 +575,15 @@ Medium devices (640px and larger)
     text-align: right;
     margin-top: 4px;
   }
+  nav > ul > li {
+    display: none;
+  }
+  .navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
   .col-md-6 {
     width: 50%;
     padding: 8px;
@@ -627,6 +657,9 @@ Large devices (1024px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+.navtoggle li:last-child {
+  display: none;
 }
   .col-lg-5 {
     width: 41.66%;
