@@ -467,6 +467,70 @@ ul.a {
 }
 .whole-spinner {
   animation: 4s full-spin infinite;
+@keyframes the-wave {
+  0% {transform: scaleY(0);}
+  50% {transform: scaleY(3);}
+  100% {transform: scaleY(0);}
+}
+#rectangle-1 {
+  animation: 3s the-wave infinite ease;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-2 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: .25s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-3 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: .5s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-4 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: .75s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-5 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: 1s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-6 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: 1.25s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-7 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: 1.5s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-8 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: 1.75s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-9 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: 2s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#rectangle-10 {
+  animation: 3s the-wave infinite ease;
+  animation-delay: 2.25s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
 @keyframes fade-out {
     0% {fill: #000000;}
     50% {fill: rgba(0,0,0,0.25);}
