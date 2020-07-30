@@ -217,6 +217,11 @@ div > ul.b > li {
 svg {
   max-width: 50px;
 }
+.css-animations svg {
+  min-width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 #navbar .container {
   display: block;
 }
@@ -297,6 +302,9 @@ ul.a {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+#contact p {
+  padding-bottom: 16px;
 }
 @keyframes small-rotate {
   0% {transform: rotate(0deg);}
