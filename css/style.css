@@ -467,6 +467,13 @@ ul.a {
 }
 .whole-spinner {
   animation: 4s full-spin infinite;
+@keyframes fade-out {
+    0% {fill: #000000;}
+    50% {fill: rgba(0,0,0,0.25);}
+    100% {fill: #000000;}
+}
+.square-bars {
+  animation: 6s fade-out infinite ease;
 }
 /* ==============================
 Medium devices (640px and larger)
