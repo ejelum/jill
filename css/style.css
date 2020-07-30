@@ -466,7 +466,8 @@ ul.a {
   100% {transform: rotate(330deg);}
 }
 .whole-spinner {
-  animation: 4s full-spin infinite;
+  animation: 4s full-spin infinite ease;
+}
 @keyframes the-wave {
   0% {transform: scaleY(0);}
   50% {transform: scaleY(3);}
