@@ -153,6 +153,9 @@ nav > ul > li > a:focus {
 nav > ul > li > a:active {
   text-transform: underline;
 }
+.navtoggle li:not(:last-child) {
+display: none;
+}
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
@@ -586,9 +589,6 @@ Medium devices (640px and larger)
   nav > ul > li {
     display: none;
   }
-  .navtoggle li:not(:last-child) {
-  display: none;
-}
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
