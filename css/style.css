@@ -572,6 +572,12 @@ ul.a {
 .square-bars {
   animation: 6s fade-out infinite ease;
 }
+#gray-behance .st0 {
+  fill: #6d6d6d;
+}
+#gray-behance .st1 {
+  fill: #ffffff;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
