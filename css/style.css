@@ -126,7 +126,6 @@ a:active { /* selected link */
 }
 .logo {
   max-width: 50px;
-  position: fixed;
 }
 nav {
   display: inline-block;
@@ -158,6 +157,7 @@ display: none;
 }
 .navtoggle, .navtoggle.responsive {
   position: relative;
+  display: flex;
 }
 .navtoggle li .icon {
   position: absolute;
