@@ -668,6 +668,9 @@ a.button {
     margin-top: 40px;
     margin-bottom: 0px;
   }
+  #prototype-embed .resp-container {
+      padding-top: 75%;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -703,6 +706,9 @@ Large devices (1024px or larger)
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  #prototype-embed .resp-container {
+      padding-top: 45%;
   }
 }
 /* ==============================
