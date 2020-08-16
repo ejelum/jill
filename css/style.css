@@ -65,7 +65,7 @@ a {
   text-decoration: none;
 }
 a:visited { /* visited link */
-  color: #6d6d6d;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
   text-decoration: none;
@@ -86,6 +86,10 @@ a:active { /* selected link */
 .button {
   background-color: transparent;
   transition: .5s;
+  color: #1b1b1b;
+}
+.button:visited {
+  color: #1b1b1b;
 }
 .button:hover,
 .button:focus {
