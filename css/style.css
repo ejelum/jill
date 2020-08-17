@@ -154,7 +154,7 @@ nav > ul > li > a:focus {
   color: #fff176;
 }
 nav > ul > li > a:active {
-  text-transform: underline;
+  text-decoration: underline;
 }
 .navtoggle li:not(:last-child) {
 display: none;
