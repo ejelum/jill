@@ -891,6 +891,13 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
+  #site-design-images img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #prototype-embed .resp-container {
     padding-top: 45%;
   }
