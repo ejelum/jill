@@ -728,6 +728,9 @@ ul.a {
   color: #000000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* ==============================
 Medium devices (640px and larger)
