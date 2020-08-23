@@ -705,6 +705,29 @@ ul.a {
   fill: #ffffff;
 }
 
+#jessica-jill-link a {
+  padding: 10px;
+  background-color: #d81B61;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#jessica-jill-link a:hover,
+#jessica-jill-link a:focus {
+  background-color: #ff5c8d;
+}
+
+#jessica-jill-link a:active {
+  background-color: #a00037;
+  color: #000000;
+}
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -818,6 +841,11 @@ Medium devices (640px and larger)
   #prototype-embed .resp-container {
     padding-top: 75%;
   }
+
+  #jessica-jill-link a {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
 
 /* ==============================
@@ -865,6 +893,11 @@ Large devices (1024px or larger)
 
   #prototype-embed .resp-container {
     padding-top: 45%;
+  }
+
+  #jessica-jill-link a {
+    width: 20%;
+    margin-left: 40%;
   }
 }
 
