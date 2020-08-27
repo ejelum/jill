@@ -728,6 +728,28 @@ ul.a {
   color: #000000;
 }
 
+#challenge-accepted-style-link a {
+  padding: 10px;
+  background-color: #003049;
+  color: #ffffff;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#challenge-accepted-style-link a:hover,
+#challenge-accepted-style-link a:focus {
+  background-color: #afc2d5;
+}
+
+#challenge-accepted-style-link a:active {
+  background-color: #7f92a4;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -850,6 +872,11 @@ Medium devices (640px and larger)
     width: 50%;
     margin-left: 25%;
   }
+
+  #challenge-accepted-style-link a {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
 
 /* ==============================
@@ -907,6 +934,11 @@ Large devices (1024px or larger)
   }
 
   #jessica-jill-link a {
+    width: 20%;
+    margin-left: 40%;
+  }
+
+  #challenge-accepted-style-link a {
     width: 20%;
     margin-left: 40%;
   }
